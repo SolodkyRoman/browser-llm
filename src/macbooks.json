@@ -1,0 +1,177 @@
+[
+  {
+    "model": "MacBook Neo 13-inch",
+    "chip": "A18 Pro",
+    "cpu": { "cores": 6, "performance": 2, "efficiency": 4 },
+    "gpu": { "cores": 5 },
+    "display": {
+      "size": 13.0,
+      "resolution": "2408x1506",
+      "type": "Liquid Retina"
+    },
+    "ram": [8],
+    "storage": [256, 512],
+    "basePrice": 599,
+    "battery": 16,
+    "weight": 1.23,
+    "ports": [
+      "1x USB-C (USB 10Gbps)",
+      "1x USB-C (USB 2.0)",
+      "3.5mm headphone jack"
+    ]
+  },
+  {
+    "model": "MacBook Air 13-inch",
+    "chip": "M5",
+    "cpu": { "cores": 10, "performance": 4, "efficiency": 6 },
+    "gpu": { "cores": 10 },
+    "display": {
+      "size": 13.6,
+      "resolution": "2560x1664",
+      "type": "Liquid Retina"
+    },
+    "ram": [16, 24, 32],
+    "storage": [512, 1024, 2048, 4096],
+    "basePrice": 1099,
+    "battery": 18,
+    "weight": 1.24,
+    "ports": ["2x Thunderbolt 4", "MagSafe 3", "3.5mm headphone jack"]
+  },
+  {
+    "model": "MacBook Air 15-inch",
+    "chip": "M5",
+    "cpu": { "cores": 10, "performance": 4, "efficiency": 6 },
+    "gpu": { "cores": 10 },
+    "display": {
+      "size": 15.3,
+      "resolution": "2880x1864",
+      "type": "Liquid Retina"
+    },
+    "ram": [16, 24, 32],
+    "storage": [512, 1024, 2048, 4096],
+    "basePrice": 1299,
+    "battery": 18,
+    "weight": 1.51,
+    "ports": ["2x Thunderbolt 4", "MagSafe 3", "3.5mm headphone jack"]
+  },
+  {
+    "model": "MacBook Pro 14-inch",
+    "chip": "M5",
+    "cpu": { "cores": 10, "performance": 4, "efficiency": 6 },
+    "gpu": { "cores": 10 },
+    "display": {
+      "size": 14.2,
+      "resolution": "3024x1964",
+      "type": "Liquid Retina XDR",
+      "proMotion": true
+    },
+    "ram": [24],
+    "storage": [1024, 2048],
+    "basePrice": 1599,
+    "battery": 24,
+    "weight": 1.55,
+    "ports": [
+      "3x Thunderbolt 4",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm headphone jack"
+    ]
+  },
+  {
+    "model": "MacBook Pro 14-inch",
+    "chip": "M5 Pro",
+    "cpu": { "cores": 15, "performance": 9, "efficiency": 6 },
+    "gpu": { "cores": 16 },
+    "display": {
+      "size": 14.2,
+      "resolution": "3024x1964",
+      "type": "Liquid Retina XDR",
+      "proMotion": true
+    },
+    "ram": [24, 48],
+    "storage": [1024, 2048, 4096],
+    "basePrice": 2199,
+    "battery": 24,
+    "weight": 1.6,
+    "ports": [
+      "3x Thunderbolt 5",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm headphone jack"
+    ]
+  },
+  {
+    "model": "MacBook Pro 14-inch",
+    "chip": "M5 Max",
+    "cpu": { "cores": 18, "performance": 12, "efficiency": 6 },
+    "gpu": { "cores": 40 },
+    "display": {
+      "size": 14.2,
+      "resolution": "3024x1964",
+      "type": "Liquid Retina XDR",
+      "proMotion": true
+    },
+    "ram": [48, 64, 128],
+    "storage": [2048, 4096, 8192],
+    "basePrice": 3599,
+    "battery": 24,
+    "weight": 1.6,
+    "ports": [
+      "3x Thunderbolt 5",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm headphone jack"
+    ]
+  },
+  {
+    "model": "MacBook Pro 16-inch",
+    "chip": "M5 Pro",
+    "cpu": { "cores": 18, "performance": 12, "efficiency": 6 },
+    "gpu": { "cores": 20 },
+    "display": {
+      "size": 16.2,
+      "resolution": "3456x2234",
+      "type": "Liquid Retina XDR",
+      "proMotion": true
+    },
+    "ram": [24, 48],
+    "storage": [1024, 2048, 4096],
+    "basePrice": 2499,
+    "battery": 24,
+    "weight": 2.14,
+    "ports": [
+      "3x Thunderbolt 5",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm headphone jack"
+    ]
+  },
+  {
+    "model": "MacBook Pro 16-inch",
+    "chip": "M5 Max",
+    "cpu": { "cores": 18, "performance": 12, "efficiency": 6 },
+    "gpu": { "cores": 40 },
+    "display": {
+      "size": 16.2,
+      "resolution": "3456x2234",
+      "type": "Liquid Retina XDR",
+      "proMotion": true
+    },
+    "ram": [48, 64, 128],
+    "storage": [2048, 4096, 8192],
+    "basePrice": 3499,
+    "battery": 24,
+    "weight": 2.14,
+    "ports": [
+      "3x Thunderbolt 5",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm headphone jack"
+    ]
+  }
+]

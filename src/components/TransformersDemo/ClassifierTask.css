@@ -1,0 +1,71 @@
+/* ── Tag input row ── */
+.tag-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag-input-row input {
+  flex: 1;
+}
+
+.tag-input-row button {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+/* ── Tag chips ── */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  min-height: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  background: var(--accent-dim);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-radius: 20px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  animation: fadeSlideUp 0.2s ease both;
+}
+
+.demo-section .tag-chip .tag-remove {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  transition: color 0.15s;
+}
+
+.demo-section .tag-chip .tag-remove:hover {
+  color: var(--text-h);
+}
+
+/* ── Result label override for longer labels ── */
+.classifier-label {
+  width: 120px;
+  text-transform: none;
+  font-size: 12px;
+}

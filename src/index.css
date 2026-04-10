@@ -1,0 +1,122 @@
+/* ── Reset & Foundations ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Base palette */
+  --bg: #0b0a12;
+  --bg-card: #12111c;
+  --bg-input: #181722;
+  --bg-hover: #1e1d2a;
+  --border: #2a2940;
+  --border-focus: #44436a;
+  --text: #cdcde0;
+  --text-h: #f8f8ff;
+  --text-muted: #9898b8;
+  --code-bg: #1c1a28;
+
+  /* Per-tool accent (default = transformers) */
+  --accent: #34d399;
+  --accent-dim: rgba(52, 211, 153, 0.12);
+  --accent-glow: rgba(52, 211, 153, 0.25);
+
+  /* Typography */
+  --display: 'JetBrains Mono', ui-monospace, 'Cascadia Code', monospace;
+  --body: 'DM Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Background ── */
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+        circle at 1px 1px,
+        rgba(255, 255, 255, 0.035) 1px,
+        transparent 0
+      )
+      0 0 / 24px 24px,
+    var(--bg);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+/* ── Type ── */
+h1,
+h2 {
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--text-h);
+  letter-spacing: -0.02em;
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  padding: 3px 7px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── Animations ── */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

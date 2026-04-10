@@ -1,0 +1,9 @@
+export const WASM_EXPLAINER = `WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine. It was designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications. Wasm was first announced in 2015 and the first demonstration was executing Unity's Angry Bots in Firefox, Google Chrome, and Microsoft Edge. The precursor technologies were asm.js from Mozilla and Google Native Client (PNaCl).
+
+In 2017, the WebAssembly Community Group reached consensus on the initial binary format, JavaScript API, and reference interpreter. The Mozilla Foundation, Google, Microsoft, and Apple all participated in the working group. WebAssembly became a World Wide Web Consortium (W3C) recommendation on 5 December 2019, alongside HTML, CSS, and JavaScript becoming the fourth language to run natively in browsers.
+
+WebAssembly runs in a sandboxed execution environment and enforces the browser's same-origin and permissions security policies. It cannot directly access the DOM or any Web API — instead it must call through JavaScript. Wasm code runs at near-native speed by taking advantage of common hardware capabilities available on a wide range of platforms. It is designed to complement and run alongside JavaScript — complex computation-heavy tasks like physics engines, image manipulation, and machine learning inference can be offloaded to Wasm modules while JavaScript handles the UI layer and orchestration.`;
+
+export const WASM_EXPLAINER_EXTENDED = `${WASM_EXPLAINER}
+
+Major real-world use cases include video and audio editing (Figma, Photoshop Web), 3D gaming engines (Unity, Unreal), scientific simulations, cryptography, database engines running client-side (SQLite compiled to Wasm), image recognition pipelines, and running full machine learning models directly in the browser — which is exactly what this demo application does with the Transformers.js library.`;
