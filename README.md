@@ -2,8 +2,6 @@
 
 A React demo app for running AI models directly in the browser — no backend required. Companion project for the article *"Running AI Models on Your Frontend"*.
 
-![App screenshot](app-screenshot.png)
-
 Four approaches, side by side:
 
 - **Transformers.js** — sentiment analysis, zero-shot classification, summarization via Web Workers
